@@ -1,0 +1,51 @@
+#figures {
+  height: 500px;
+  width: 200px;
+  display: inline-block;
+  position: relative;
+}
+
+#canvas {
+  /* height: 500px;
+  width: 200px; */
+  display: inline-block;
+  position: relative;
+}
+
+#divCanvas {
+  display: inline;
+}
+
+table, th, td {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+th {
+  font-size: 17px;
+  background-color: #eaeae1;
+}
+
+.circle {
+	width: 100px;
+	height: 100px;
+  background: blue;
+  border: 2px solid black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 25%;
+  top:20px;
+}
+
+#square {
+	width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  background: green;
+  position: absolute;
+  left: 25%;
+  top:170px;
+}
+
